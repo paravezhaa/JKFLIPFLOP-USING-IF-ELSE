@@ -35,14 +35,36 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 **Procedure**
 
 /* write all the steps invloved */
+1. TYPE THE CODE IN THE QUARTUS SOFTWARE
+2. COMPILE AND RUN THE CODE
+3. GENERATE THE RTL VIEWER
+4. CREATE NODES FOR INPUT AND OUTPUT NODES TO GENERATE TIMING DIAGRAM
+5. FOR DIFFERENT COMBINATIONS OF INPUT GENERATE THE TIMING DIAGRAM
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by:PARAVEZHAA M RegisterNumber:212225220070
 */
+<img width="304" height="159" alt="image" src="https://github.com/user-attachments/assets/504dd246-5f15-4d00-a67f-a1dbef4965a2" />
+
+**Truth Table**
+| J | K | Qt | ~Qt | ~K | Y |
+| - | - | -- | --- | -- | - |
+| 0 | 0 | 0  | 1   | 1  | 0 |
+| 0 | 1 | 0  | 1   | 0  | 0 |
+| 1 | 0 | 0  | 1   | 1  | 1 |
+| 1 | 1 | 0  | 1   | 0  | 1 |
+| 0 | 0 | 1  | 0   | 1  | 1 |
+| 0 | 1 | 1  | 0   | 0  | 0 |
+| 1 | 0 | 1  | 0   | 1  | 1 |
+| 1 | 1 | 1  | 0   | 0  | 0 |
 
 **RTL LOGIC FOR FLIPFLOPS**
+<img width="410" height="197" alt="image" src="https://github.com/user-attachments/assets/746208f4-e736-4bc1-926b-4b31382c851d" />
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+<img width="1746" height="883" alt="image" src="https://github.com/user-attachments/assets/4371de30-a6b7-4fd6-a22e-f15215eaf7ee" />
 
 **RESULTS**
+thus the code to implement JK flipflop using verilog and validating their functionality using their functional tables
